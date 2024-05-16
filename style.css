@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background: white
+}
+
+header {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+header h1 {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    text-align: center;
+    margin: 1em 0;
+}
+
+h2 {
+    color: #333;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: white;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+p {
+  color: white;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+  
+  
+}
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid grey; /* змініть колір, якщо потрібно */
+  cursor: pointer;
+}
+
+.additional-info {
+  display: none;
+  /* додайте стилі за бажанням */
+}
+
+.show-info {
+  display: block !important; /* використовуйте !important для переваги над display: none */
+}
+
